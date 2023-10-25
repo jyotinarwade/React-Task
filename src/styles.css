@@ -1,0 +1,344 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+.container-fluid{
+  background-color: rgb(180, 18, 169);
+}
+.meet{
+    /* width: 144rem; */
+  
+    /* background: linear-gradient(282.81deg, rgba(70, 10, 67, 0.4) 124.96%, #a52e59 205.2%); */
+   
+    display:grid;
+    clear: left;
+  }
+  .container{
+   display:grid;
+    margin-top: 5rem;
+  }
+  #arrow{
+    /* margin-right: 1.9rem; */
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+   
+  }
+  #team{
+    margin-left: 60px;
+    margin-bottom: -30px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.072rem;
+    color: #ffffff;
+    font-family: Open Sans, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 2.4rem;
+  }
+  #item-2{
+    color: #ffffff;
+    font-family: Open Sans, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 6rem;
+    margin-top:-40px ;
+   
+  }
+  #item-3{
+    color: #ffffff;
+    font-family: Open Sans, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 110px;
+   
+  }
+  .frame-3{
+    overflow: hidden;
+    font-size: 1.8rem;
+    /* letter-spacing: 0.054rem; */
+    font-family: Open Sans, 'Source Sans Pro';
+    display: flex;
+    background-color: #ffffff;
+    position: relative;
+    line-height: 1.3333333333;
+    white-space: nowrap;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+    /* height: 100%; */
+    /* font-weight: 400;
+    align-items: center; */
+    width: 9.7rem;
+    color: #000000;
+    justify-content: center;
+    margin-top: -35px;
+  }
+  .manager{
+   background-image: url(/src/rectangle-4.png);
+  /* padding: 250px; */
+  /* background: url('..\assets\rectangle-50.png'); */
+  background-repeat: no-repeat;
+  block-size: 50rem;
+  background-size: 100rem 50rem;
+  border-radius: 5%;
+ margin-left: 5rem;
+
+ 
+  
+  /* background-size: 300px 100px; */
+  }
+  #video{
+    padding:10px;
+    background-color: #000000;
+    border-radius: 50%;
+    border: 2px solid rgb(11, 178, 16);
+  }
+  .footer{
+    margin-top: 5rem;
+    display:flex;
+    justify-content: space-around;
+    clear:both;
+  }
+  #call{
+    padding:10px;
+    border-radius: 20%;
+    background-color: rgb(255, 0, 0);
+  }
+  #man{
+color:#ffffff;
+    border-radius: 5rem;
+    background-color: #000000;
+    padding:2rem 3rem 2rem 2rem;
+    margin-left: 3rem;
+    margin-top:2rem;
+    font-size: 2rem;
+    border: 2px solid rgb(11, 178, 16);
+  }    
+  #you{
+    border: 2px solid rgb(11, 178, 16);
+    border-radius: 10%;
+    
+margin-left:70rem;
+margin-top:5rem;
+position:relative;
+
+
+
+  }
+  #you-button{
+    color:#ffffff;
+    border-radius: 1rem;
+    background-color: #000000;
+    padding:1rem 4rem 0rem -0rem;
+     margin-left: -80px; 
+    margin-top:14rem; 
+    font-size: 12px;
+    border: 2px solid rgb(11, 178, 16);
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    display: inline-block;
+    
+  
+  }
+  #offcanvasScrolling{
+    width:25rem;
+    clear: both;
+  }
+  #offcanvasScrollingLabel{
+    /* border-bottom: 1px solid rgb(8, 7, 7);
+    width:200rem; */
+    text-align: center;
+    font-size: 30px;
+    margin-left: 9rem;
+  }
+  #yesterday{
+    text-align: center;
+   
+  width:100%;
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+  }
+  p span{
+    background:#fff; 
+    padding:0 10px; 
+  }
+  .line{
+    border-bottom: 1px solid rgb(8, 7, 7);
+   
+    
+  }
+  #message{
+    border: none;
+    background-color: #ede7e7;
+    border-radius: 5px;
+   padding:5px;
+    margin-left: 50px;
+    margin-top:-33px ;
+    text-align: center;
+  }
+  #mes{
+    border-radius: 5px;
+   
+  }
+  #me{
+    float: left;
+    border: none;
+    background-color: #e86199;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+    margin-left: 30px;
+    margin-right:30px;
+  }
+  #mess{
+    float: right;
+    border: none;
+    background-color: #e86199;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+    margin-left: 80px;
+  }
+  #right{
+    float:inline-end;
+    margin-top: -40px;
+  }
+  #righ{
+    float:inline-end;
+    margin-top: -10px;
+  }
+  #m{
+    float: left;
+    border: none;
+    background-color: #e86199;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top: -30px;
+  }
+  #foot{
+    border-top: 1px solid rgb(8, 7, 7);
+    display: flex;
+  }
+  #foots{
+    border-Bottom: 1px solid rgb(8, 7, 7);
+  }
+  #vector-1{
+margin-top: 15px;
+margin-left: 20px;   
+  }
+  #write-message{
+    text-align: center;
+    margin-left: 60px;
+    margin-top:15px;
+   font-size: 10px;
+  }
+  #emoji{
+    float:inline-end;
+    margin-left: 20px;
+    margin-top:15px;
+   
+  }
+  #send{
+    float:inline-end;
+    margin-left: 50px;
+    margin-top:15px;
+    text-align: inherit;
+  }
+  
+
+  @media screen and (max-width: 992px) {
+   .manager {
+    background-image: url(/src/rectangle-4.png);
+    /* padding: 250px; */
+    /* background: url('..\assets\rectangle-50.png'); */
+    background-repeat: no-repeat;
+    block-size: 50rem;
+    background-size: 100rem 50rem;
+    border-radius: 5%;
+   margin-left: 5rem;
+   width:65rem;
+  
+   
+    }
+    html {
+      font-size:62.5%;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul, li {
+      list-style: none;
+    }
+    input {
+      border: none;
+    }
+    .container-fluid{
+      width:90rem;
+      background-color: rgb(180, 18, 169);
+    }
+    .meet{
+        /* width: 144rem; */
+      
+        /* background: linear-gradient(282.81deg, rgba(70, 10, 67, 0.4) 124.96%, #a52e59 205.2%); */
+       
+        display:grid;
+        clear: left;
+      }
+      .container{
+       display:grid;
+        margin-top: 5rem;
+      }
+      #you{
+        border: 2px solid rgb(11, 178, 16);
+        border-radius: 10%;
+        
+    margin-left:385px;
+    margin-top:2rem;
+    position:relative;
+    
+    
+    
+      }
+      #you-button{
+        color:#ffffff;
+        border-radius: 1rem;
+        background-color: #000000;
+        padding:1rem 4rem 0rem -0rem;
+         margin-left: -80px; 
+        margin-top:11rem; 
+        font-size: 12px;
+        border: 2px solid rgb(11, 178, 16);
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        display: inline-block;
+        
+      
+      }
+    
+  }
+  
+ 
